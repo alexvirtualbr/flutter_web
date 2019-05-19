@@ -157,4 +157,15 @@ Example:
     ]
   }
 ]
+
+## In widget_test.dart
+
+## CHANGE
+import 'package:flutter/material.dart';
+import 'package:flutter_test/flutter_test.dart';
+
+## TO
+import 'package:flutter_web/material.dart';
+import 'package:flutter_web_test/flutter_web_test.dart';
+
 ```
